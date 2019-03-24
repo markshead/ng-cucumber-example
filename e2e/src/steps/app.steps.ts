@@ -19,3 +19,14 @@ Then('I should see {string}', async (title) => {
   expect(await page.getTitleText()).to.equal(title);
 });
 
+When('I click the Display Snackbar button', async() => {
+  await page.clickSnackbarButton();
+});
+
+Then('the {string} is displayed', async (string) => {
+
+  console.log(page.getSnackBarText);
+  expect(await page.getSnackBarText()).to.contain(string);
+ // expect(await page.getTitleText()).to.equal("X");
+});
+
