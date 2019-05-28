@@ -27,6 +27,8 @@
     "chai": "^4.2.0",
     "core-js": "^2.6.5",
     "cucumber": "^5.1.0",
+    "ngx-build-plus": "^7.8.3",
+    "nyc": "^14.1.1",
     "protractor-cucumber-framework": "^6.1.1",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
